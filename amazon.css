@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height:60px;
+    background-color:black;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.navlog{
+    height: 40px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    background-image:url(amazon.png.svg) ;
+    padding-bottom: 18px;
+    margin-left: 45px;
+}
+i{
+    padding-top: 30%;
+    font-size: 200%;
+}
+.fa-solid{
+    background-image:url(location.png.svg) ;
+    padding-bottom: 4px;
+    font-size: 15px;
+}
+.deliver{
+    display: flex wrap;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+    color: #cccccc;
+}
+.country{
+    color: white;
+    font-size: 14px;
+}
+input{
+width: 600px;
+height: 29px;
+border-top-right-radius: 9%;
+border-bottom-right-radius: 9%;
+border-top-left-radius: 0%;
+border-bottom-left-radius:0%;
+}
+.option{
+    background-color:#fffeeed3;
+    height: 35px;
+    margin-left: 20px;
+    border-top-left-radius: 9%;
+    border-bottom-left-radius:9%;
+}
+.search{
+    background-color:black;
+    width: 49px;
+    background-image:url(search.svg);
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+.fa-magnifying-glass{
+    font-size: 22px;
+}
+.language{
+    background-color: black;
+    color: antiquewhite;
+    border: none;
+}
+.fa-indian-rupee-sign{
+    font-size: 13px;
+    padding-top: 7px;
+}
+.box5{
+    display: flex wrap;
+    margin-left:29px;
+    font-size: 12px;
+}
+.box5i{
+    background-color: black;
+    color: antiquewhite;
+    border: none;
+    font-size: 14px;
+    
+}
+.box6{
+    background-color: black;
+    color: antiquewhite;
+    font-size: 12px;
+    margin-left: 29px;
+}
+.box6i{
+    font-size: 20px;
+}
+.fa-cart-shopping{
+    font-size: 29px;
+    margin-left: 39px;
+    padding-bottom: 12px;
+}
+.wcart{
+    padding-top: 17px;
+}
+input:hover{
+border: 2px solid orangered;
+}
+.fa-cart-shopping:hover{
+    color: yellow;
+}
+/**main navbar over**/
+.panel{
+    display: flex;
+    background-color: #222f3d;
+    color: white;
+    height: 50px;
+    font-size: 12px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.all{
+    align-items: center;
+font-weight: bolder;
+font-size: 18px;
+}
+.prime{
+    background-color: #222f3d;
+    color: white;
+    border: none;
+}
+/**panel over**/
+.mainhero{
+    background-image: url(hero.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 88, 88);
+    justify-content: space-evenly;
+    height: 600px;
+    padding-top: 30px;
+}
+.box{
+height: 285px;
+width: 270px;
+background-color: white;
+padding-left: 9px;
+padding-right: 9px;
+}
+.h{
+    padding-top: 4px;
+padding-bottom: 4px;
+}
+.s{
+    padding-top: 6px;
+    padding-bottom: 4px;
+}
+.boxi{
+    height: 215px;
+    background-size: cover;
+}
+/**body over**/
+.back{
+height: 50px;
+width: 100%;
+background-color: #37475a;
+color: white;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+.f2{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    height: 300px;
+}
+ul a {
+    display:block;
+    color: #dddddd;
+    margin-top: 10px;
+}
+.f3{
+    background-image:url(amazon.png.svg) ;
+    height: 60px;
+    background-color:black;
+    color: white;
+   border-top: 0.75px solid grey;
+   display: flex;
+    padding-left: 40%;
+}
+.f3 select{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.globe{
+    margin-left: 70px;
+}
+.f4{
+    background-color: #131a22;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 9px;
+}
+.f5{
+    background-color: #131a22;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-left: 35px;
+}
+.f6{
+    background-color: #131a22;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+}
+.f6 a{
+    padding: 8px;
+    color: white;
+}
+.end{
+    height: 19px;
+ background-color: #131a22; 
+ align-items: center;  
+ display: flex;
+ justify-content: center;
+ color: white;
+}
